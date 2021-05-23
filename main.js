@@ -1,4 +1,4 @@
-let openPopupButton = document.querySelector('.popup_open');
+let openPopupButton = document.querySelector('.popup__open');
 let popup = document.querySelector('.popup');
 let closePopupButton = document.querySelector('.popup__close');
 let profileName = document.querySelector('.profile__name');
@@ -11,13 +11,13 @@ openPopupButton.addEventListener('click', openPopup);
 closePopupButton.addEventListener('click', closePopup);
 
 function openPopup() {
-    popup.classList.add('popup_opened');
+    popup.classList.add('popup__opened');
     nameInput.value = profileName.textContent;
     statusInput.value = profileStatus.textContent;
 };
 
 function closePopup() {
-    popup.classList.remove('popup_opened');
+    popup.classList.remove('popup__opened');
 };
 
 function formSubmitHandler (evt) {
