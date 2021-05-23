@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Место</title>
+  <link rel="stylesheet" href="./pages/index.css">
+</head>
+<body class="body">
+    <div class="page">
+        <header class="header">
+           <img class="header__logo" src="./images/logo.svg" alt="логотип">
+        </header>
+        <main class="content">
+            <div class="profile">
+                <img class="profile__avatar" src="./images/kusto.jpg" alt="фото кусто">
+                <div class="profile__info">
+                    <div class="profile__name-and-button">
+                        <h1 class="profile__name">Жак-Ив Кусто</h1>
+                        <button type="button" class="profile__edit-button popup_open"></button>
+                    </div>
+                    <p class="profile__status">Исследователь океана</p>
+                </div>
+                <button type="button" class="profile__add-buttton"></button>
+            </div>
+            <div class="elements">
+                <div class="element">
+                    <img class="element__photo" src="./images/karachaevsk.jpg" alt="замок карачаевск">
+                    <div class="element__info">
+                        <h2 class="element__name">Карачаевск</h2>
+                        <button type="button" class="element__love"></button>
+                    </div>
+                </div>
+                <div class="element">
+                    <img class="element__photo" src="./images/elbrus.jpg" alt="гора эльбрус">
+                    <div class="element__info">
+                        <h2 class="element__name">Гора Эльбрус</h2>
+                        <button type="button" class="element__love"></button>
+                    </div>
+                </div>
+                <div class="element">
+                    <img class="element__photo" src="./images/dombai.jpg" alt="домбай">
+                    <div class="element__info">
+                        <h2 class="element__name">Домбай</h2>
+                        <button type="button" class="element__love"></button>
+                    </div>
+                </div>
+                <div class="element">
+                    <img class="element__photo" src="./images/elbrus.jpg" alt="гора эльбрус">
+                    <div class="element__info">
+                        <h2 class="element__name">Гора Эльбрус</h2>
+                        <button type="button" class="element__love"></button>
+                    </div>
+                </div>
+                <div class="element">
+                    <img class="element__photo" src="./images/dombai.jpg" alt="домбай">
+                    <div class="element__info">
+                        <h2 class="element__name">Домбай</h2>
+                        <button type="button" class="element__love"></button>
+                    </div>
+                </div>
+                <div class="element">
+                    <img class="element__photo" src="./images/karachaevsk.jpg" alt="замок карачаевск">
+                    <div class="element__info">
+                        <h2 class="element__name">Карачаево-Черкессия</h2>
+                        <button type="button" class="element__love"></button>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <p class="footer__text">&copy; 2020 Mesto Russia</p>
+        </footer>
+
+        <section class="popup">
+            <div class="popup__container">
+                <form class="popup__container-form">
+                    <h2 class="popup__title">Редактировать профиль</h2>
+                    <input id="edit-name" type="text" class="popup__input" value="">
+                    <input id="edit-status" type="text" class="popup__input" value="">
+                    <button type="submit" class="popup__submit">Сохранить</button>
+                    <button type="button" class="popup__close" aria-label="Закрыть попап"></button>
+                </form>
+            </div>
+          </section>
+
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
+
