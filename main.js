@@ -11,13 +11,13 @@ openPopupButton.addEventListener('click', openPopup);
 closePopupButton.addEventListener('click', closePopup);
 
 function openPopup() {
-    popup.classList.add('popup__opened');
+    popup.classList.add('popup_opened');
     nameInput.value = profileName.textContent;
     statusInput.value = profileStatus.textContent;
 };
 
 function closePopup() {
-    popup.classList.remove('popup__opened');
+    popup.classList.remove('popup_opened');
 };
 
 function formSubmitHandler (evt) {
