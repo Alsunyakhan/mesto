@@ -1,6 +1,5 @@
 .footer {
     max-width: 880px;
-    max-height: 18px;
     margin-top: 67px;
     margin-left: auto;
     margin-right: auto;
@@ -10,5 +9,6 @@
     .footer {
         margin-top: 48px;
         margin-bottom: 36px;
+        width: 282px;
     }
 }

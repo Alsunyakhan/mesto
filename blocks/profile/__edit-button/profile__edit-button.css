@@ -11,6 +11,7 @@
     width: 24px;
     height: 24px;
     transition: opacity 0.5s linear;
+    cursor: pointer;
 }
 .profile__edit-button:hover {
     opacity: 0.6;

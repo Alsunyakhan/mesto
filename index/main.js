@@ -7,9 +7,6 @@ let formElement = document.querySelector('.popup__container-form');
 let nameInput = document.querySelector('#edit-name');
 let statusInput = document.querySelector('#edit-status');
 
-openPopupButton.addEventListener('click', openPopup);
-closePopupButton.addEventListener('click', closePopup);
-
 function openPopup() {
     popup.classList.add('popup_opened');
     nameInput.value = profileName.textContent;
@@ -27,4 +24,6 @@ function formSubmitHandler (evt) {
     closePopup();
 }
 
+openPopupButton.addEventListener('click', openPopup);
+closePopupButton.addEventListener('click', closePopup);
 formElement.addEventListener('submit', formSubmitHandler); 
